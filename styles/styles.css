@@ -5,7 +5,18 @@
   border: 0;
   background-color: #917DBC;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: #fffce9;
+}
+#bodyAlt{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffce9;
+  font-family: "Poppins", sans-serif;
+  color: #917DBC;
 }
 
 #main {
@@ -116,5 +127,5 @@ input {
   border: 0px solid;
   width: 100%;
   border-collapse: collapse; 
-
+  align-items: center;
 }
