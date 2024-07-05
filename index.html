@@ -10,8 +10,8 @@
 <body>
   <!-- un contenedor -->
   <main id="main">
-    <header id="header" style="width: 100%; max-width: 100%; text-align: center;">
-        <a href="#CuniDesc" id="header">¿Qué es Cuni?</a> <a href="#Aliados" id="header">Aliados</a> <a href="#Contactenos" id="header">Contáctenos</a>
+    <header id= "MyHeader" class="header" style="width: 100%; max-width: 100%; text-align: center;">
+        <a href="#CuniDesc" class="header">¿Qué es Cuni?</a> <a href="#Aliados" class="header">Aliados</a> <a href="#Contactenos" class="header">Contáctenos</a>
     </header>
     <div style="display: grid;">
         <div>
@@ -89,3 +89,17 @@
   </main>
 </body>
 </html>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("MyHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+</script>
