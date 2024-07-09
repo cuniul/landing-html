@@ -27,6 +27,8 @@
   justify-items: center;
   align-items: center;
   color: #fffce9;
+  min-height: 150px;
+
 }
 #bodyAlt{
   display: grid;
@@ -157,7 +159,7 @@ input {
   align-items: center;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 960px) {
   #bodyAlt {
     display: grid;
     margin: 0;
@@ -174,5 +176,22 @@ input {
     grid-template-rows: 50% 50%;
     color: #917DBC;
     min-height: 150px;
+  }
+  #body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #917DBC;
+    font-family: "Poppins", sans-serif;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    color: #fffce9;
+    min-height: 100px;
   }
 }
