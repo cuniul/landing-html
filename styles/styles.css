@@ -43,6 +43,7 @@
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   color: #917DBC;
+  min-height: 350px;
 }
 
 #main {
@@ -154,4 +155,24 @@ input {
   width: 100%;
   border-collapse:separate; 
   align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  #bodyAlt {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #fffce9;
+    font-family: "Poppins", sans-serif;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    color: #917DBC;
+    min-height: 150px;
+  }
 }
