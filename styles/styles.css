@@ -192,6 +192,6 @@ input {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     color: #fffce9;
-    min-height: 100px;
+    min-height: 75px;
   }
 }
